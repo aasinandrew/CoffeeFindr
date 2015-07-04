@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		BB8DBF691B464C7500FF8B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8DBF681B464C7500FF8B56 /* main.m */; };
 		BB8DBF6C1B464C7500FF8B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8DBF6B1B464C7500FF8B56 /* AppDelegate.m */; };
-		BB8DBF6F1B464C7500FF8B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8DBF6E1B464C7500FF8B56 /* ViewController.m */; };
 		BB8DBF721B464C7500FF8B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8DBF701B464C7500FF8B56 /* Main.storyboard */; };
 		BB8DBF741B464C7500FF8B56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8DBF731B464C7500FF8B56 /* Images.xcassets */; };
 		BB8DBF771B464C7500FF8B56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8DBF751B464C7500FF8B56 /* LaunchScreen.xib */; };
 		BB8DBF831B464C7500FF8B56 /* CoffeeFindrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8DBF821B464C7500FF8B56 /* CoffeeFindrTests.m */; };
+		BB8DBF971B464DC600FF8B56 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8DBF961B464DC600FF8B56 /* ListViewController.m */; };
+		BB8DBF991B464E5E00FF8B56 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8DBF981B464E5E00FF8B56 /* CoreLocation.framework */; };
+		BB8DBF9B1B464E6600FF8B56 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8DBF9A1B464E6600FF8B56 /* MapKit.framework */; };
+		BB8DBF9E1B465A6800FF8B56 /* CoffeePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8DBF9D1B465A6800FF8B56 /* CoffeePlace.m */; };
+		BB8DBFA11B478E6700FF8B56 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8DBFA01B478E6700FF8B56 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,20 @@
 		BB8DBF681B464C7500FF8B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB8DBF6A1B464C7500FF8B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB8DBF6B1B464C7500FF8B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BB8DBF6D1B464C7500FF8B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BB8DBF6E1B464C7500FF8B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BB8DBF711B464C7500FF8B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB8DBF731B464C7500FF8B56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BB8DBF761B464C7500FF8B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BB8DBF7C1B464C7500FF8B56 /* CoffeeFindrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeFindrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8DBF811B464C7500FF8B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB8DBF821B464C7500FF8B56 /* CoffeeFindrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeFindrTests.m; sourceTree = "<group>"; };
+		BB8DBF951B464DC600FF8B56 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		BB8DBF961B464DC600FF8B56 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		BB8DBF981B464E5E00FF8B56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB8DBF9A1B464E6600FF8B56 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BB8DBF9C1B465A6800FF8B56 /* CoffeePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeePlace.h; sourceTree = "<group>"; };
+		BB8DBF9D1B465A6800FF8B56 /* CoffeePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeePlace.m; sourceTree = "<group>"; };
+		BB8DBF9F1B478E6700FF8B56 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BB8DBFA01B478E6700FF8B56 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB8DBF9B1B464E6600FF8B56 /* MapKit.framework in Frameworks */,
+				BB8DBF991B464E5E00FF8B56 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,8 @@
 		BB8DBF5A1B464C7500FF8B56 = {
 			isa = PBXGroup;
 			children = (
+				BB8DBF9A1B464E6600FF8B56 /* MapKit.framework */,
+				BB8DBF981B464E5E00FF8B56 /* CoreLocation.framework */,
 				BB8DBF651B464C7500FF8B56 /* CoffeeFindr */,
 				BB8DBF7F1B464C7500FF8B56 /* CoffeeFindrTests */,
 				BB8DBF641B464C7500FF8B56 /* Products */,
@@ -83,10 +97,14 @@
 			children = (
 				BB8DBF6A1B464C7500FF8B56 /* AppDelegate.h */,
 				BB8DBF6B1B464C7500FF8B56 /* AppDelegate.m */,
-				BB8DBF6D1B464C7500FF8B56 /* ViewController.h */,
-				BB8DBF6E1B464C7500FF8B56 /* ViewController.m */,
+				BB8DBF9C1B465A6800FF8B56 /* CoffeePlace.h */,
+				BB8DBF9D1B465A6800FF8B56 /* CoffeePlace.m */,
 				BB8DBF701B464C7500FF8B56 /* Main.storyboard */,
+				BB8DBF9F1B478E6700FF8B56 /* DetailViewController.h */,
+				BB8DBFA01B478E6700FF8B56 /* DetailViewController.m */,
 				BB8DBF731B464C7500FF8B56 /* Images.xcassets */,
+				BB8DBF951B464DC600FF8B56 /* ListViewController.h */,
+				BB8DBF961B464DC600FF8B56 /* ListViewController.m */,
 				BB8DBF751B464C7500FF8B56 /* LaunchScreen.xib */,
 				BB8DBF661B464C7500FF8B56 /* Supporting Files */,
 			);
@@ -219,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8DBF6F1B464C7500FF8B56 /* ViewController.m in Sources */,
+				BB8DBFA11B478E6700FF8B56 /* DetailViewController.m in Sources */,
 				BB8DBF6C1B464C7500FF8B56 /* AppDelegate.m in Sources */,
+				BB8DBF9E1B465A6800FF8B56 /* CoffeePlace.m in Sources */,
 				BB8DBF691B464C7500FF8B56 /* main.m in Sources */,
+				BB8DBF971B464DC600FF8B56 /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +436,7 @@
 				BB8DBF881B464C7500FF8B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB8DBF891B464C7500FF8B56 /* Build configuration list for PBXNativeTarget "CoffeeFindrTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +445,7 @@
 				BB8DBF8B1B464C7500FF8B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
